@@ -1,0 +1,15 @@
+#include <stdio.h>
+#include <math.h>
+
+int main(){
+
+	double r, pi;
+
+	scanf("%lf", &r);
+
+	pi = 3.14159;
+
+	printf("A = %.4lf\n", pi*pow(r, 2));
+
+	return 0;
+}
